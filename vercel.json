@@ -1,6 +1,6 @@
 {
-  "outputDirectory": ".output",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist",
+  "installCommand": "pnpm install",
+  "framework": null
 }
