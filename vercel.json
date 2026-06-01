@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pnpm install && pnpm build",
+  "outputDirectory": ".output/public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
